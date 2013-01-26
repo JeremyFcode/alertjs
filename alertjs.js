@@ -100,6 +100,14 @@
             }
         }
         
+        _close_btn.addEventListener("click",function(){
+            _body.removeChild(_box);
+            _body.removeChild(_layer);
+            if(typeof urlToGo == 'string'){
+                window.location.href = urlToGo;
+            }
+        }, false);
+        
     }
         
 
