@@ -9,3 +9,5 @@ Customize alert(); native javascript function
 
 - You can edit the stylesheet file for customize the design
 - Use alert(); with two parameters : alert("title","message");
+
+Example : http://benjaminb.fr/labs/alertjs/
